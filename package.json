@@ -1,0 +1,26 @@
+{
+  "name": "studentsportal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "africastalking": "^0.6.2",
+    "ap": "^0.2.0",
+    "app": "^0.1.0",
+    "axios": "^1.5.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "mongoose": "^7.5.1",
+    "nodemon": "^3.0.1",
+    "validate-phone-number-node-js": "^0.0.1",
+    "xlsx": "^0.18.5"
+  }
+}
