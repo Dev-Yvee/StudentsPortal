@@ -17,7 +17,6 @@ const studentSchema = new mongoose.Schema({
         type:Number,
         required:[true,"Please enter your contact number"],
         unique: true,
-        lowercase: true
     }
 
 

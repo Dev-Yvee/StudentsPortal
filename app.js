@@ -33,6 +33,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 
 app.use("/api/v1/students", studentRoute)
+app.use("/api/v1/results",resultRoute)
 //app.use("/api/v1/drivers", driverRoutes);
 
 
